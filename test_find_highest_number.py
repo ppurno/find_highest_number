@@ -25,3 +25,16 @@ def test_find_highest_in_array_of_two_descending():
     # assert
 
     assert expectedResult == result
+
+
+def test_find_highest_in_array_of_Random():
+    # arrange
+    numbers = [22, 46, 64, 82, 3, 9, 1, 19]
+    expectedResult = 82
+    cut = HighestNumberFinder()
+
+    # act
+    result = cut.find_highest_number(numbers)
+    # assert
+
+    assert expectedResult == result
