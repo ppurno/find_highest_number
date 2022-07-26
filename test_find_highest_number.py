@@ -29,7 +29,7 @@ def test_find_highest_in_array_of_two_descending():
 
 def test_find_highest_in_array_of_Random():
     # arrange
-    numbers = [64, 22, 82, 46, 64, 82, 64, 64, 3, 9, 1, 19, 20]
+    numbers = [64, 22, 82, 46, 64, 82, 64, 64, 3, 9, 1, 19]
     expectedResult = 82
     cut = HighestNumberFinder()
 
